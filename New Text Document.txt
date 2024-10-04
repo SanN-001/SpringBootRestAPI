@@ -1,0 +1,25 @@
+SpringBoot-REST-API/
+│
+├── .idea/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.example.demo/
+│   │   │   │   ├── DemoApplication.java
+│   │   │   │   ├── controller/
+│   │   │   │   │   └── UserController.java
+│   │   │   │   ├── model/
+│   │   │   │   │   └── User.java
+│   │   │   │   ├── repository/
+│   │   │   │   │   └── UserRepository.java
+│   ├── resources/
+│   │   ├── application.properties
+│   │   ├── static/
+│   │   ├── templates/
+│   └── test/
+│       ├── java/
+│       │   └── UserControllerTests.java
+│
+├── .gitignore
+├── README.md
+├── pom.xml

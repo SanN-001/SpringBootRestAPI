@@ -1,0 +1,23 @@
+spring-boot-restapi/
+ ├── .idea/                  (IDE-specific files)
+ ├── src/
+ │   ├── main/
+ │   │   └── java/
+ │   │       └── com/
+ │   │           └── example/
+ │   │               └── restapi/
+ │   │                   ├── RestapiApplication.java  (Main application)
+ │   │                   ├── controller/
+ │   │                   │   └── UserController.java  (REST controller)
+ │   │                   ├── model/
+ │   │                   │   └── User.java            (User entity)
+ │   │                   ├── repository/
+ │   │                   │   └── UserRepository.java  (Repository interface)
+ │   └── test/
+ │       └── java/
+ │           └── com/
+ │               └── example/
+ │                   └── restapi/
+ │                       └── UserControllerTests.java (Unit test for UserController)
+ ├── pom.xml                 (Maven build configuration)
+ └── .gitignore               (Ignore file for Git)
